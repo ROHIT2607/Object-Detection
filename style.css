@@ -1,0 +1,44 @@
+* {
+  margin: 5px;
+}
+.navbar-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dfcbcb;
+  color: black;
+  border-radius: 10px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+#uploadForm {
+  display: flex;
+  align-items: center;
+}
+
+#uploadForm input[type="file"],
+#uploadForm button {
+  margin-left: 10px;
+}
+
+#uploadForm button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+#uploadForm button:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  text-align: center;
+  margin: 200px 200px 0 200px;
+  border-radius: 15px;
+  background-color: #dfcbcb;
+}
